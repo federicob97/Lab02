@@ -1,4 +1,4 @@
-package it.polito.tdp.alien;
+package it.polito.tdp.alienModel;
 
 public class Word {
 
@@ -31,7 +31,7 @@ public class Word {
 	public boolean equals(Object arg0) {
 		// TODO Auto-generated method stub
 		Word w = (Word)arg0;
-		if(this.alienWord.compareTo(w.getAlienWord())==0 && this.translation.compareTo(w.getTranslation())==0){
+		if(this.alienWord.compareTo(w.getAlienWord())==0){
 			return true;
 		}
 		else
